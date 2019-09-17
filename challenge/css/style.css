@@ -1,0 +1,151 @@
+header {
+    background-image: linear-gradient(90deg, rgba(75, 108, 155, 0.73) 21%, rgba(98, 239, 244, 0.71) 94%);
+}
+
+
+.icon-images {
+    width: 145px;
+    height: 150px;
+    max-width: 150px;
+}
+
+body {
+    font-family: cursive;
+    font: Quicksand;
+}
+
+.navbar-default {
+    border: none;
+    background-color: transparent;
+}
+
+.main {
+    background-image: linear-gradient(90deg, rgba(75, 108, 255, 0.73) 21%, rgba(98, 239, 244, 0.71) 94%), url(../images/bgimage.jpg);
+    background-size: cover;
+    background-position: center fixed;
+    padding-bottom: 10%;
+}
+
+#logo {
+    margin-left: 240px;
+    margin-top: -5px;
+}
+
+.main .navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-right: 18%;
+    padding: 0;
+}
+
+.main .navbar ul li {
+    float: right;
+}
+
+.main .navbar ul li a {
+    display: block;
+    color: #fff;
+    text-align: left;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+#join {
+    padding: 5% 0% 10% 20%;
+    text-align: justify;
+    color: #fff;
+}
+
+#join button {
+    padding: 7px 25px 7px 25px;
+    background-color: #6dd0ab;
+    color: white;
+    border: none;
+    width: 200px;
+}
+
+#join button a {
+    color: white;
+    text-decoration: none;
+}
+
+#start {
+    padding-right: 10%;
+    text-align: justify;
+    color: white;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    padding: 7% 10% 10% 10%;
+    max-width: 330px;
+    margin: 7% 5% 0% 2%;
+    box-shadow: 0px 1px 6px rgba(46, 147, 168, 0.46);
+}
+
+.card h1 {
+    background-color: #6dd0ab;
+    padding: 20px;
+    text-align: center;
+    width: 80px;
+    margin-left: 105%;
+    color: white;
+}
+
+.card h2 {
+    margin-top: -40%;
+}
+
+#start .card button {
+    padding: 7px 25px 7px 25px;
+    background-color: #6dd0ab;
+    color: white;
+    border: none;
+    width: 230px;
+}
+
+.card .input {
+    width: 230px;
+}
+
+#start .card buton a {
+    color: white;
+    text-decoration: none;
+}
+
+.line {
+    margin-top: 70%;
+    border: solid gray 0.5px;
+    width: 150px;
+}
+
+#how {
+    padding: 5% 5% 10% 15%;
+    text-align: center;
+}
+
+#how h1 {
+    margin-right: 15%;
+}
+
+#thirdrow {
+    background-color: #e7e7e7;
+    padding: 5% 15%;
+}
+
+
+footer {
+    text-align: center;
+    padding: 5% 20%;
+}
+
+span {
+    color: #6dd0ab;
+}
